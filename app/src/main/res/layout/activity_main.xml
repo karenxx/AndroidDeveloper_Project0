@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.myappportfolio.MainActivity">
+
+    <TextView
+        android:id="@+id/my_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="36dp"
+        android:text="My Nanodegree Apps!"
+        android:textSize="42sp"
+        android:textColor="#212121"
+        android:fontFamily="sans-serif-medium"/>
+
+    <Button
+        android:id="@+id/spotify_streamer"
+        style="@style/AppButton"
+        android:text="Spotify Streamer"
+        android:onClick="openSpotifyStreamer" />
+
+    <Button
+        android:id="@+id/scores_app"
+        style="@style/AppButton"
+        android:text="Scores App"
+        android:onClick="openScoresApp" />
+
+    <Button
+        android:id="@+id/library_app"
+        style="@style/AppButton"
+        android:text="Library App"
+        android:onClick="openLibraryApp"/>
+
+    <Button
+        android:id="@+id/build_bigger"
+        style="@style/AppButton"
+        android:text="Build It Bigger"
+        android:onClick="openBuildBigger" />
+
+    <Button
+        android:id="@+id/xyz_reader"
+        style="@style/AppButton"
+        android:text="XYZ Reader"
+        android:onClick="openXYZReader" />
+
+    <Button
+        android:id="@+id/capstone_my_own_app"
+        style="@style/CapstoneButton"
+        android:text="Capstone: My Own App"
+        android:onClick="openCapstone" />
+</LinearLayout>
